@@ -36,7 +36,7 @@ gem 'jbuilder', '2.7.0'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'sqlite3', '1.3.13'
+   gem 'pg', '0.18.4'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', '9.0.6', platform: :mri
   # Adds support for Capybara system testing and selenium driver
